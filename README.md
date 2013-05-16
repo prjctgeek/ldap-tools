@@ -8,7 +8,7 @@ ldif2csv
   This is a simple python script to convert an ldif file to csv
   it supports command line atttribute lists
 
-== Usage
+Usage
 <pre>
 ldif2csv [options]
 
@@ -22,7 +22,7 @@ Options:
                         attribute
 </pre>
 
-=== Sample usage 
+Sample usage 
 
 <pre>
 ldif2csv -i ~/Downloads/users.ldif -o ~/Downloads/users.csv -a name -a mail -a title -a manager
